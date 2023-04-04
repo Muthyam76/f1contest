@@ -7,7 +7,7 @@
 }
 .nav-container{
     display: flex;
-    border:2px solid red;
+   
     justify-content: space-between;
    background-color: #333333;
     align-items: center;
@@ -18,7 +18,7 @@
 }
 .nav-right{
     display: flex;
-    border:2px solid blue;
+    
     justify-content: space-between;
 }
 .nav-left{
