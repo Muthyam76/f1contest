@@ -1,0 +1,81 @@
+/*design for smartphones*/
+@media(max-width: 450px) {
+   body {
+    background-color: black; 
+    }
+    .nav-right{
+        visibility: hidden;
+        
+
+    }
+    .yes{
+        visibility:visible !important;
+
+    }
+    section{
+        margin:2px;
+
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width:100vb;
+
+    }
+    .main-left{
+        width:100vb;
+        border-radius: 5px;
+        align-items: center;
+
+    }
+    .main-left > img{
+        object-fit: contain;
+        
+    }
+    .main-right{
+        width:100vb;
+        border-radius: 5px;
+       
+        display: flex; 
+    }
+    .one{
+        display:flex;
+        width:100vb;
+    }
+    .right-buttom{
+        margin-top: 6px;
+       
+       
+        display: flex;
+        flex-direction: column;
+      
+       
+        width:100vb;
+
+    }
+    .side1{
+        width:100%;
+        border-radius: 5px;
+       
+    }
+    .side2{
+        width:100%;
+        border-radius: 5px;
+    }
+    .pic{
+        object-fit: contain;
+
+    }
+    .main-left > span{
+        margin:10px;
+        padding:10px;
+
+    }
+    
+    
+    
+    }
+  
+  
